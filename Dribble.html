@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 5 DribbleClone</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="Dribble.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="font-[Gilroy]">
+
+    <div class="main relative bg-[#e0dfdc]">
+
+        <div class="page1 relative h-screen w-full bg-[#e0dfdc]">
+
+            <div class="navbar w-full flex items-center justify-between h-[10%] px-7 bg-[red]">
+
+                <div class="left-nav w-[50%] flex items-center justify-between">
+                    <i class="ri-menu-2-line text-[6vw] hidden"></i>
+                    <img src="Logo.svg" alt="" class="w-[15%]">
+                    <h4 class="font-medium">Find Talent</h4>
+                    <h4 class="font-medium">Inspiration</h4>
+                    <h4 class="font-medium">Learn design</h4>
+                    <h4 class="font-medium">Jobs</h4>
+                    <h4 class="font-medium">Go Pro</h4>
+                </div>
+
+                <div class="right-nav w-[35%]">
+                    <input type="text" placeholder="Search..." class="text-[1.3vw] rounded-[15px] py-1.5 px-4">
+                    <button class="log bg-[transparent] px-5 py-3 font-semibold">Log In</button>
+                    <i class="ri-search-line"></i>
+                    <button class="sign bg-[#0D0C22] text-[white] px-5 py-4 rounded-[30px]">Sign Up</button>
+                </div>
+
+            </div>
+
+            <div class="page1-content h-[90%] flex items-center justify-center flex-col gap-[2vw]">
+                <h2 class="text-[1.3vw] py-1 px-5 bg-slate-400 rounded-[30px]">Over 3 million ready-to-work creatives!
+                </h2>
+                <h1 class="text-[6vw] w-[70%] text-center leading-[6vw] font-[v] ">The world’s destination for design
+                </h1>
+                <h2 class="text-2xl font-[500] ">Get inspired by the work of millions of top-rated designers & agencies
+                    around the world.</h2>
+
+                <button class="btn border-none">Get Started</button>
+            </div>
+
+            <!-- <div class="fixed-bar fixed bottom-0 w-full py-5 bg-[#0D0C22] flex items-center justify-between px-[2vw]">
+
+                <div class="together flex items-center justify-center w-full gap-[2vw]">
+
+                    <h1 class=" text-[white] text-center "> <span class="text-[#BD66B6] font-semibold">DESIGN
+                            WORKSHOP</span> — Learn to start your own apparel brand — <span
+                            class="text-[#BD66B6] font-semibold">FEBRUARY 27th</span></h1>
+
+                    <button class="bg-slate-50 py-2 px-3 rounded-[30px]">Check it Out</button>
+
+                </div>
+
+
+                <div class="svg-div relative right-0 bg-[#3D3D4E] h-[25px] w-[25px] rounded-[30px] p-1.5">
+
+                    <svg class="h-[100%] w-[100%] rounded-[30px] text-[#9B9BA4] " xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 26 26" fill="none" role="img" class="icon announcements__close-icon">
+                        <path
+                            d="M8.28596 6.51819C7.7978 6.03003 7.00634 6.03003 6.51819 6.51819C6.03003 7.00634 6.03003 7.7978 6.51819 8.28596L11.2322 13L6.51819 17.714C6.03003 18.2022 6.03003 18.9937 6.51819 19.4818C7.00634 19.97 7.7978 19.97 8.28596 19.4818L13 14.7678L17.714 19.4818C18.2022 19.97 18.9937 19.97 19.4818 19.4818C19.97 18.9937 19.97 18.2022 19.4818 17.714L14.7678 13L19.4818 8.28596C19.97 7.7978 19.97 7.00634 19.4818 6.51819C18.9937 6.03003 18.2022 6.03003 17.714 6.51819L13 11.2322L8.28596 6.51819Z"
+                            fill="currentColor"></path>
+                    </svg>
+
+                </div>
+            </div> -->
+
+
+        </div>
+
+        <div class="anime h-[20vw] w-full whitespace-nowrap overflow-x-auto overflow-y-hidden">
+
+            <div class="scroller h-full w-fit inline-block whitespace-nowrap">
+
+                <div
+                    class="elem relative h-full w-[18vw] bg-slate-300 inline-block rounded-[30px] mr-[15px] overflow-hidden">
+                    <img class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/uploads/47172/original/d85ae8c7db2421e9a01ecac942978d4b.png?1685645079&format=webp&resize=273x340&vertical=center"
+                        alt="">
+
+                    <div class="overlay absolute bottom-0 bg-transparent h-[30%] w-full flex flex-col px-4">
+                        <h3 class="text-[white] text-[1vw] font-semibold">Andrea Jelić</h3>
+                        <h3 class="text-[white] text-[1vw] font-semibold">Digital Designer</h3>
+
+                        <div class="overlay-items flex w-[70%] items-center justify-center gap-2">
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Brand</h3>
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                UI</h3>
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Web</h3>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div
+                    class="elem relative h-full w-[18vw] bg-slate-300 inline-block rounded-[30px] mr-[15px] overflow-hidden">
+                    <video autoplay loop muted class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/uploads/47181/original/1e3a73a174484bef522b620c401cd00a.mp4?1685645427"></video>
+
+                    <div class="overlay absolute bottom-0 bg-transparent h-[30%] w-full flex flex-col px-4">
+                        <h3 class="text-[white] text-[1vw] font-semibold">Helen Tran</h3>
+                        <h3 class="text-[white] text-[1vw] font-semibold"> Lead Product Designer</h3>
+
+                        <div class="overlay-items flex w-[100%] items-center justify-center gap-2">
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Leadership</h3>
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Product</h3>
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                UX</h3>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div
+                    class="elem relative h-full w-[18vw] bg-slate-300 inline-block rounded-[30px] mr-[15px] overflow-hidden">
+                    <img class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/uploads/47170/original/cd3266dde4f00a5d6a509c7375ddaecd.png?1685644840&format=webp&resize=273x340&vertical=center"
+                        alt="">
+
+                    <div class="overlay absolute bottom-0 bg-transparent h-[30%] w-full flex flex-col px-4">
+                        <h3 class="text-[white] text-[1vw] font-semibold">Aurélien Salomon</h3>
+                        <h3 class="text-[white] text-[1vw] font-semibold">Design Director</h3>
+
+                        <div class="overlay-items flex w-[80%] items-center justify-center gap-2">
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Mobile</h3>
+
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Product</h3>
+
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                UX</h3>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div
+                    class="elem relative h-full w-[18vw] bg-slate-300 inline-block rounded-[30px] mr-[15px] overflow-hidden">
+                    <video autoplay loop muted class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/uploads/47180/original/1def7b9fb30832c4af4353b325d9c3af.mp4?1685645402"></video>
+
+                    <div class="overlay absolute bottom-0 bg-transparent h-[30%] w-full flex flex-col px-4">
+                        <h3 class="text-[white] text-[1vw] font-semibold">Jesse Showalter</h3>
+                        <h3 class="text-[white] text-[1vw] font-semibold">Design Educator</h3>
+
+                        <div class="overlay-items flex w-[80%] items-center justify-center gap-2">
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                UI</h3>
+
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Web</h3>
+
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Mobile</h3>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div
+                    class="elem relative h-full w-[18vw] bg-slate-300 inline-block rounded-[30px] mr-[15px] overflow-hidden">
+                    <img class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/uploads/47177/original/3986915be548424a5d36657f2b034ead.jpeg?1685645250&format=webp&resize=273x340&vertical=center"
+                        alt="">
+
+                    <div class="overlay absolute bottom-0 bg-transparent h-[30%] w-full flex flex-col px-4">
+                        <h3 class="text-[white] text-[1vw] font-semibold">Chris Owens</h3>
+                        <h3 class="text-[white] text-[1vw] font-semibold">Creative Director</h3>
+
+                        <div class="overlay-items flex w-[80%] items-center justify-center gap-2">
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Illustration</h3>
+
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Mobile</h3>
+
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                UI</h3>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div
+                    class="elem relative h-full w-[18vw] bg-slate-300 inline-block rounded-[30px] mr-[15px] overflow-hidden">
+                    <img class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/uploads/47176/original/9b22cd83bde1809976bec0722d1f8923.jpeg?1685645213&format=webp&resize=273x340&vertical=center"
+                        alt="">
+
+                    <div class="overlay absolute bottom-0 bg-transparent h-[30%] w-full flex flex-col px-4">
+                        <h3 class="text-[white] text-[1vw] font-semibold">Elif Kameşoğlu</h3>
+                        <h3 class="text-[white] text-[1vw] font-semibold">Brand Designer</h3>
+
+                        <div class="overlay-items flex w-[80%] items-center justify-center gap-2">
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Brand</h3>
+
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Illustration</h3>
+
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Web</h3>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div
+                    class="elem relative h-full w-[18vw] bg-slate-300 inline-block rounded-[30px] mr-[15px] overflow-hidden">
+                    <img class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/uploads/47174/original/4f02d72fe701b15b2168a4954332427f.png?1685645150&format=webp&resize=273x340&vertical=center"
+                        alt="">
+
+                    <div class="overlay absolute bottom-0 bg-transparent h-[30%] w-full flex flex-col px-4">
+                        <h3 class="text-[white] text-[1vw] font-semibold">Lilla Bardenova</h3>
+                        <h3 class="text-[white] text-[1vw] font-semibold">Brand + Illustrator</h3>
+
+                        <div class="overlay-items flex w-[80%] items-center justify-center gap-2">
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Illustration</h3>
+
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Brand</h3>
+
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Web</h3>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div
+                    class="elem relative h-full w-[18vw] bg-slate-300 inline-block rounded-[30px] mr-[15px] overflow-hidden">
+                    <img class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/uploads/47171/original/daniele-buffa-3.png?1689174763&format=webp&resize=273x340&vertical=center"
+                        alt="">
+
+                    <div class="overlay absolute bottom-0 bg-transparent h-[30%] w-full flex flex-col px-4">
+                        <h3 class="text-[white] text-[1vw] font-semibold">Daniele Buffa</h3>
+                        <h3 class="text-[white] text-[1vw] font-semibold">Principal Designer</h3>
+
+                        <div class="overlay-items flex w-[80%] items-center justify-center gap-2">
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Animation</h3>
+
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                UI</h3>
+
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Visual</h3>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div
+                    class="elem relative h-full w-[18vw] bg-slate-300 inline-block rounded-[30px] mr-[15px] overflow-hidden">
+                    <video autoplay loop muted class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/uploads/47179/original/35d07cfebd303e05e688078015da0cc2.mp4?1685645373"></video>
+
+                    <div class="overlay absolute bottom-0 bg-transparent h-[30%] w-full flex flex-col px-4">
+                        <h3 class="text-[white] text-[1vw] font-semibold">Dan Mall</h3>
+                        <h3 class="text-[white] text-[1vw] font-semibold">Design Educator</h3>
+
+                        <div class="overlay-items flex w-[80%] items-center justify-center gap-2">
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Product</h3>
+
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                UX</h3>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="scroller h-full w-fit inline-block whitespace-nowrap">
+
+                <div
+                    class="elem relative h-full w-[18vw] bg-slate-300 inline-block rounded-[30px] mr-[15px] overflow-hidden">
+                    <img class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/uploads/47172/original/d85ae8c7db2421e9a01ecac942978d4b.png?1685645079&format=webp&resize=273x340&vertical=center"
+                        alt="">
+
+                    <div class="overlay absolute bottom-0 bg-transparent h-[30%] w-full flex flex-col px-4">
+                        <h3 class="text-[white] text-[1vw] font-semibold">Andrea Jelić</h3>
+                        <h3 class="text-[white] text-[1vw] font-semibold">Digital Designer</h3>
+
+                        <div class="overlay-items flex w-[70%] items-center justify-center gap-2">
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Brand</h3>
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                UI</h3>
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Web</h3>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div
+                    class="elem relative h-full w-[18vw] bg-slate-300 inline-block rounded-[30px] mr-[15px] overflow-hidden">
+                    <video autoplay loop muted class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/uploads/47181/original/1e3a73a174484bef522b620c401cd00a.mp4?1685645427"></video>
+
+                    <div class="overlay absolute bottom-0 bg-transparent h-[30%] w-full flex flex-col px-4">
+                        <h3 class="text-[white] text-[1vw] font-semibold">Helen Tran</h3>
+                        <h3 class="text-[white] text-[1vw] font-semibold"> Lead Product Designer</h3>
+
+                        <div class="overlay-items flex w-[100%] items-center justify-center gap-2">
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Leadership</h3>
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Product</h3>
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                UX</h3>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div
+                    class="elem relative h-full w-[18vw] bg-slate-300 inline-block rounded-[30px] mr-[15px] overflow-hidden">
+                    <img class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/uploads/47170/original/cd3266dde4f00a5d6a509c7375ddaecd.png?1685644840&format=webp&resize=273x340&vertical=center"
+                        alt="">
+
+                    <div class="overlay absolute bottom-0 bg-transparent h-[30%] w-full flex flex-col px-4">
+                        <h3 class="text-[white] text-[1vw] font-semibold">Aurélien Salomon</h3>
+                        <h3 class="text-[white] text-[1vw] font-semibold">Design Director</h3>
+
+                        <div class="overlay-items flex w-[80%] items-center justify-center gap-2">
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Mobile</h3>
+
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Product</h3>
+
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                UX</h3>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div
+                    class="elem relative h-full w-[18vw] bg-slate-300 inline-block rounded-[30px] mr-[15px] overflow-hidden">
+                    <video autoplay loop muted class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/uploads/47180/original/1def7b9fb30832c4af4353b325d9c3af.mp4?1685645402"></video>
+
+                    <div class="overlay absolute bottom-0 bg-transparent h-[30%] w-full flex flex-col px-4">
+                        <h3 class="text-[white] text-[1vw] font-semibold">Jesse Showalter</h3>
+                        <h3 class="text-[white] text-[1vw] font-semibold">Design Educator</h3>
+
+                        <div class="overlay-items flex w-[80%] items-center justify-center gap-2">
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                UI</h3>
+
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Web</h3>
+
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Mobile</h3>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div
+                    class="elem relative h-full w-[18vw] bg-slate-300 inline-block rounded-[30px] mr-[15px] overflow-hidden">
+                    <img class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/uploads/47177/original/3986915be548424a5d36657f2b034ead.jpeg?1685645250&format=webp&resize=273x340&vertical=center"
+                        alt="">
+
+                    <div class="overlay absolute bottom-0 bg-transparent h-[30%] w-full flex flex-col px-4">
+                        <h3 class="text-[white] text-[1vw] font-semibold">Chris Owens</h3>
+                        <h3 class="text-[white] text-[1vw] font-semibold">Creative Director</h3>
+
+                        <div class="overlay-items flex w-[80%] items-center justify-center gap-2">
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Illustration</h3>
+
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Mobile</h3>
+
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                UI</h3>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div
+                    class="elem relative h-full w-[18vw] bg-slate-300 inline-block rounded-[30px] mr-[15px] overflow-hidden">
+                    <img class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/uploads/47176/original/9b22cd83bde1809976bec0722d1f8923.jpeg?1685645213&format=webp&resize=273x340&vertical=center"
+                        alt="">
+
+                    <div class="overlay absolute bottom-0 bg-transparent h-[30%] w-full flex flex-col px-4">
+                        <h3 class="text-[white] text-[1vw] font-semibold">Elif Kameşoğlu</h3>
+                        <h3 class="text-[white] text-[1vw] font-semibold">Brand Designer</h3>
+
+                        <div class="overlay-items flex w-[80%] items-center justify-center gap-2">
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Brand</h3>
+
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Illustration</h3>
+
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Web</h3>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div
+                    class="elem relative h-full w-[18vw] bg-slate-300 inline-block rounded-[30px] mr-[15px] overflow-hidden">
+                    <img class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/uploads/47174/original/4f02d72fe701b15b2168a4954332427f.png?1685645150&format=webp&resize=273x340&vertical=center"
+                        alt="">
+
+                    <div class="overlay absolute bottom-0 bg-transparent h-[30%] w-full flex flex-col px-4">
+                        <h3 class="text-[white] text-[1vw] font-semibold">Lilla Bardenova</h3>
+                        <h3 class="text-[white] text-[1vw] font-semibold">Brand + Illustrator</h3>
+
+                        <div class="overlay-items flex w-[80%] items-center justify-center gap-2">
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Illustration</h3>
+
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Brand</h3>
+
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Web</h3>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div
+                    class="elem relative h-full w-[18vw] bg-slate-300 inline-block rounded-[30px] mr-[15px] overflow-hidden">
+                    <img class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/uploads/47171/original/daniele-buffa-3.png?1689174763&format=webp&resize=273x340&vertical=center"
+                        alt="">
+
+                    <div class="overlay absolute bottom-0 bg-transparent h-[30%] w-full flex flex-col px-4">
+                        <h3 class="text-[white] text-[1vw] font-semibold">Daniele Buffa</h3>
+                        <h3 class="text-[white] text-[1vw] font-semibold">Principal Designer</h3>
+
+                        <div class="overlay-items flex w-[80%] items-center justify-center gap-2">
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Animation</h3>
+
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                UI</h3>
+
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Visual</h3>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div
+                    class="elem relative h-full w-[18vw] bg-slate-300 inline-block rounded-[30px] mr-[15px] overflow-hidden">
+                    <video autoplay loop muted class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/uploads/47179/original/35d07cfebd303e05e688078015da0cc2.mp4?1685645373"></video>
+
+                    <div class="overlay absolute bottom-0 bg-transparent h-[30%] w-full flex flex-col px-4">
+                        <h3 class="text-[white] text-[1vw] font-semibold">Dan Mall</h3>
+                        <h3 class="text-[white] text-[1vw] font-semibold">Design Educator</h3>
+
+                        <div class="overlay-items flex w-[80%] items-center justify-center gap-2">
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                Product</h3>
+
+                            <h3
+                                class="text-[white] text-[0.8vw] bg-transparent border-[1px] border-[#929191] px-3 py-1 rounded-[30px] font-semibold">
+                                UX</h3>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+
+        <div class="page2 relative h-fit w-full bg-[#e0dfdc] py-[4vw] flex items-center flex-col">
+            <h1 class="text-[4vw] text-center">Explore inspiring designs</h1>
+
+            <div class="page2-container p-10">
+
+                <div class="box h-[200px] w-[280px] relative inline-block rounded-[15px] m-[15px] overflow-hidden">
+                    <img class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/userupload/13050535/file/original-dc7294da3d3875542daa23a0f83f122b.png?resize=320x240&vertical=center"
+                        alt="">
+
+                    <div
+                        class="bottom-box h-[40%] w-full absolute bottom-[-40%] bg-gradient-to-b to-[#0000009f] from-transparent flex items-center justify-between px-5">
+                        <h4 class="font-semibold text-[white]">Productivity</h4>
+
+                        <div class="icons flex items-center justify-between gap-2">
+                            <i class="ri-heart-line text-[1.3vw] bg-white rounded-[50%] px-[4px] py-[1px]"></i>
+                            <i class="ri-bookmark-line bg-white rounded-[50%] px-[4px] py-[1px]"></i>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="box h-[200px] w-[280px] relative inline-block rounded-[15px] m-[15px] overflow-hidden">
+                    <img class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/userupload/12664607/file/original-713d48e948123a149b109304edb68b18.jpg?crop=27x20-1053x790&resize=320x240&vertical=center"
+                        alt="">
+
+                    <div
+                        class="bottom-box h-[40%] w-full absolute bottom-[-40%] bg-gradient-to-b to-[#0000009f] from-transparent flex items-center justify-between px-5">
+                        <h4 class="font-semibold text-[white]">Productivity</h4>
+
+                        <div class="icons flex items-center justify-between gap-2">
+                            <i class="ri-heart-line text-[1.3vw] bg-white rounded-[50%] px-[4px] py-[1px]"></i>
+                            <i class="ri-bookmark-line bg-white rounded-[50%] px-[4px] py-[1px]"></i>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="box h-[200px] w-[280px] relative inline-block rounded-[15px] m-[15px] overflow-hidden">
+
+                    <video autoplay loop muted class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/userupload/12655802/file/small-a9207c64d3c90c0177b55d54096ed087.mp4"></video>
+
+                    <div
+                        class="bottom-box h-[40%] w-full absolute bottom-[-40%] bg-gradient-to-b to-[#0000009f] from-transparent flex items-center justify-between px-5">
+                        <h4 class="font-semibold text-[white]">Productivity</h4>
+
+                        <div class="icons flex items-center justify-between gap-2">
+                            <i class="ri-heart-line text-[1.3vw] bg-white rounded-[50%] px-[4px] py-[1px]"></i>
+                            <i class="ri-bookmark-line bg-white rounded-[50%] px-[4px] py-[1px]"></i>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="box h-[200px] w-[280px] relative inline-block rounded-[15px] m-[15px] overflow-hidden">
+                    <img class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/userupload/12926651/file/original-19586e5591c844dd04acac8a2e32e002.jpg?crop=153x129-1815x1376&resize=400x300&vertical=center"
+                        alt="">
+
+                    <div
+                        class="bottom-box h-[40%] w-full absolute bottom-[-40%] bg-gradient-to-b to-[#0000009f] from-transparent flex items-center justify-between px-5">
+                        <h4 class="font-semibold text-[white]">Productivity</h4>
+
+                        <div class="icons flex items-center justify-between gap-2">
+                            <i class="ri-heart-line text-[1.3vw] bg-white rounded-[50%] px-[4px] py-[1px]"></i>
+                            <i class="ri-bookmark-line bg-white rounded-[50%] px-[4px] py-[1px]"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box h-[200px] w-[280px] relative inline-block rounded-[15px] m-[15px] overflow-hidden">
+                    <img class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/userupload/13053936/file/original-9b153bacd9cfd53b6a918779321dde12.jpg?crop=0x190-1600x1390&resize=400x300&vertical=center"
+                        alt="">
+
+                    <div
+                        class="bottom-box h-[40%] w-full absolute bottom-[-40%] bg-gradient-to-b to-[#0000009f] from-transparent flex items-center justify-between px-5">
+                        <h4 class="font-semibold text-[white]">Productivity</h4>
+
+                        <div class="icons flex items-center justify-between gap-2">
+                            <i class="ri-heart-line text-[1.3vw] bg-white rounded-[50%] px-[4px] py-[1px]"></i>
+                            <i class="ri-bookmark-line bg-white rounded-[50%] px-[4px] py-[1px]"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box h-[200px] w-[280px] relative inline-block rounded-[15px] m-[15px] overflow-hidden">
+                    <img class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/userupload/13006920/file/original-561f1c7ab10e415e6d364e652342bfff.png?resize=400x300&vertical=center"
+                        alt="">
+
+                    <div
+                        class="bottom-box h-[40%] w-full absolute bottom-[-40%] bg-gradient-to-b to-[#0000009f] from-transparent flex items-center justify-between px-5">
+                        <h4 class="font-semibold text-[white]">Productivity</h4>
+
+                        <div class="icons flex items-center justify-between gap-2">
+                            <i class="ri-heart-line text-[1.3vw] bg-white rounded-[50%] px-[4px] py-[1px]"></i>
+                            <i class="ri-bookmark-line bg-white rounded-[50%] px-[4px] py-[1px]"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box h-[200px] w-[280px] relative inline-block rounded-[15px] m-[15px] overflow-hidden">
+                    <img class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/userupload/13056993/file/original-4c58dc4cf6722a29579a6aecb8a7c19e.jpg?resize=400x300&vertical=center"
+                        alt="">
+
+                    <div
+                        class="bottom-box h-[40%] w-full absolute bottom-[-40%] bg-gradient-to-b to-[#0000009f] from-transparent flex items-center justify-between px-5">
+                        <h4 class="font-semibold text-[white]">Productivity</h4>
+
+                        <div class="icons flex items-center justify-between gap-2">
+                            <i class="ri-heart-line text-[1.3vw] bg-white rounded-[50%] px-[4px] py-[1px]"></i>
+                            <i class="ri-bookmark-line bg-white rounded-[50%] px-[4px] py-[1px]"></i>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="box h-[200px] w-[280px] relative inline-block rounded-[15px] m-[15px] overflow-hidden">
+                    <img class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/userupload/12929905/file/original-d6343f333da40a3729ff3474a5a0c2f5.png?resize=400x300&vertical=center"
+                        alt="">
+                    <div
+                        class="bottom-box h-[40%] w-full absolute bottom-[-40%] bg-gradient-to-b to-[#0000009f] from-transparent flex items-center justify-between px-5">
+                        <h4 class="font-semibold text-[white]">Productivity</h4>
+
+                        <div class="icons flex items-center justify-between gap-2">
+                            <i class="ri-heart-line text-[1.3vw] bg-white rounded-[50%] px-[4px] py-[1px]"></i>
+                            <i class="ri-bookmark-line bg-white rounded-[50%] px-[4px] py-[1px]"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box h-[200px] w-[280px] relative inline-block rounded-[15px] m-[15px] overflow-hidden">
+                    <img class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/userupload/13090247/file/original-89e2c1efc4dab870651cf0d3850956cd.png?resize=400x300&vertical=center"
+                        alt="">
+                    <div
+                        class="bottom-box h-[40%] w-full absolute bottom-[-40%] bg-gradient-to-b to-[#0000009f] from-transparent flex items-center justify-between px-5">
+                        <h4 class="font-semibold text-[white]">Productivity</h4>
+
+                        <div class="icons flex items-center justify-between gap-2">
+                            <i class="ri-heart-line text-[1.3vw] bg-white rounded-[50%] px-[4px] py-[1px]"></i>
+                            <i class="ri-bookmark-line bg-white rounded-[50%] px-[4px] py-[1px]"></i>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="box h-[200px] w-[280px] relative inline-block rounded-[15px] m-[15px] overflow-hidden">
+                    <img class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/userupload/12992588/file/original-4aae8b6c1a21d9c27dee193d747c6b30.jpg?crop=494x0-2894x1800&resize=400x300&vertical=center"
+                        alt="">
+                    <div
+                        class="bottom-box h-[40%] w-full absolute bottom-[-40%] bg-gradient-to-b to-[#0000009f] from-transparent flex items-center justify-between px-5">
+                        <h4 class="font-semibold text-[white]">Productivity</h4>
+
+                        <div class="icons flex items-center justify-between gap-2">
+                            <i class="ri-heart-line text-[1.3vw] bg-white rounded-[50%] px-[4px] py-[1px]"></i>
+                            <i class="ri-bookmark-line bg-white rounded-[50%] px-[4px] py-[1px]"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box h-[200px] w-[280px] relative inline-block rounded-[15px] m-[15px] overflow-hidden">
+                    <img class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/userupload/12928901/file/original-76c4970a9506d2a931f52d1489480545.jpg?resize=400x300&vertical=center"
+                        alt="">
+
+                    <div
+                        class="bottom-box h-[40%] w-full absolute bottom-[-40%] bg-gradient-to-b to-[#0000009f] from-transparent flex items-center justify-between px-5">
+                        <h4 class="font-semibold text-[white]">Productivity</h4>
+
+                        <div class="icons flex items-center justify-between gap-2">
+                            <i class="ri-heart-line text-[1.3vw] bg-white rounded-[50%] px-[4px] py-[1px]"></i>
+                            <i class="ri-bookmark-line bg-white rounded-[50%] px-[4px] py-[1px]"></i>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="box h-[200px] w-[280px] relative inline-block rounded-[15px] m-[15px] overflow-hidden">
+                    <img class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/userupload/13046907/file/original-7305409d746aa61e4280139cf0dab7b1.png?resize=400x300&vertical=center"
+                        alt="">
+
+                    <div
+                        class="bottom-box h-[40%] w-full absolute bottom-[-40%] bg-gradient-to-b to-[#0000009f] from-transparent flex items-center justify-between px-5">
+                        <h4 class="font-semibold text-[white]">Productivity</h4>
+
+                        <div class="icons flex items-center justify-between gap-2">
+                            <i class="ri-heart-line text-[1.3vw] bg-white rounded-[50%] px-[4px] py-[1px]"></i>
+                            <i class="ri-bookmark-line bg-white rounded-[50%] px-[4px] py-[1px]"></i>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="box h-[200px] w-[280px] relative inline-block rounded-[15px] m-[15px] overflow-hidden">
+                    <img class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/userupload/13065125/file/original-6de54584b6906f30abd0cc9a31236571.jpg?resize=400x300&vertical=center"
+                        alt="">
+
+                    <div
+                        class="bottom-box h-[40%] w-full absolute bottom-[-40%] bg-gradient-to-b to-[#0000009f] from-transparent flex items-center justify-between px-5">
+                        <h4 class="font-semibold text-[white]">Productivity</h4>
+
+                        <div class="icons flex items-center justify-between gap-2">
+                            <i class="ri-heart-line text-[1.3vw] bg-white rounded-[50%] px-[4px] py-[1px]"></i>
+                            <i class="ri-bookmark-line bg-white rounded-[50%] px-[4px] py-[1px]"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box h-[200px] w-[280px] relative inline-block rounded-[15px] m-[15px] overflow-hidden">
+                    <img class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/userupload/13004479/file/original-bb8e443364a95388150ca8cf1bdfad47.jpg?resize=400x300&vertical=center"
+                        alt="">
+
+                    <div
+                        class="bottom-box h-[40%] w-full absolute bottom-[-40%] bg-gradient-to-b to-[#0000009f] from-transparent flex items-center justify-between px-5">
+                        <h4 class="font-semibold text-[white]">Productivity</h4>
+
+                        <div class="icons flex items-center justify-between gap-2">
+                            <i class="ri-heart-line text-[1.3vw] bg-white rounded-[50%] px-[4px] py-[1px]"></i>
+                            <i class="ri-bookmark-line bg-white rounded-[50%] px-[4px] py-[1px]"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box h-[200px] w-[280px] relative inline-block rounded-[15px] m-[15px] overflow-hidden">
+                    <img class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/userupload/12897563/file/original-2679800b86ea44677b88909d11f89861.png?resize=400x300&vertical=center"
+                        alt="">
+
+                    <div
+                        class="bottom-box h-[40%] w-full absolute bottom-[-40%] bg-gradient-to-b to-[#0000009f] from-transparent flex items-center justify-between px-5">
+                        <h4 class="font-semibold text-[white]">Productivity</h4>
+
+                        <div class="icons flex items-center justify-between gap-2">
+                            <i class="ri-heart-line text-[1.3vw] bg-white rounded-[50%] px-[4px] py-[1px]"></i>
+                            <i class="ri-bookmark-line bg-white rounded-[50%] px-[4px] py-[1px]"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box h-[200px] w-[280px] relative inline-block rounded-[15px] m-[15px] overflow-hidden">
+                    <img class="h-full w-full object-cover object-center"
+                        src="https://cdn.dribbble.com/userupload/13084449/file/original-0e07026f998efcf762b5b9ce99245e17.png?resize=400x300&vertical=center"
+                        alt="">
+
+                    <div
+                        class="bottom-box h-[40%] w-full absolute bottom-[-40%] bg-gradient-to-b to-[#0000009f] from-transparent flex items-center justify-between px-5">
+                        <h4 class="font-semibold text-[white]">Productivity</h4>
+
+                        <div class="icons flex items-center justify-between gap-2">
+                            <i class="ri-heart-line text-[1.3vw] bg-white rounded-[50%] px-[4px] py-[1px]"></i>
+                            <i class="ri-bookmark-line bg-white rounded-[50%] px-[4px] py-[1px]"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="btn  ">Browse more inspiration</button>
+
+        </div>
+
+        <div class="page3 relative h-[90vh] w-full bg-[#FFDA79] flex justify-center items-center flex-col">
+            <div class="page3-container h-full w-[50%] flex justify-center items-center flex-col">
+                <h1 class="text-center text-[6vw] leading-[6vw] font-[v]">Find your next designer today</h1>
+                <h3 class="text-center text-[1.5vw] mt-[2vw] w-[90%]">The world’s leading brands use Dribbble to hire
+                    creative talent. Browse millions of top-rated portfolios to find your perfect creative match.</h3>
+
+                <div class="butts mt-[2vw]">
+                    <button class="btn border-none">Get Started Now</button>
+                    <button class="btn border-none bg-white">Learn about hiring</button>
+                </div>
+
+                <h2 class="mt-[2vw] text-[2vw]">Are you a designer? <span class="underline">Join Dribbble</span></h2>
+            </div>
+        </div>
+
+        <div class="page4 relative h-fit w-full">
+
+            <div class="anime2 mt-[4.5vw] whitespace-nowrap overflow-x-hidden overflow-y-hidden">
+
+                <div class="anime2-container h-full w-fit inline-block">
+
+                    <div class="img-container h-[30vh] w-[17vw] overflow-hidden rounded-[10px] inline-block mr-[15px]">
+                        <img class="object-cover object-center h-[90%] w-full rounded-[10px]"
+                            src="https://cdn.dribbble.com/userupload/12958449/file/original-174234ab179f5ca07d255047652cd460.png?format=webp&resize=200x150&vertical=center"
+                            alt="">
+
+                        <h3 class="px-2 text-[1vw] font-semibold">Mobile</h3>
+                    </div>
+
+                    <div class="img-container h-[30vh] w-[17vw] overflow-hidden rounded-[10px] inline-block mr-[15px]">
+                        <img class="object-cover object-center h-[90%] w-full rounded-[10px]"
+                            src="https://cdn.dribbble.com/userupload/12917157/file/original-db75ebf7857004842eff664b333da8c6.jpg?format=webp&resize=200x150&vertical=center"
+                            alt="">
+
+                        <h3 class="px-2 text-[1vw] font-semibold">Print</h3>
+                    </div>
+
+                    <div class="img-container h-[30vh] w-[17vw] overflow-hidden rounded-[10px] inline-block mr-[15px]">
+                        <img class="object-cover object-center h-[90%] w-full rounded-[10px]"
+                            src="https://cdn.dribbble.com/userupload/12826104/file/original-7b9ef3d90afefe3eb75b8ed937c16894.jpg?format=webp&resize=200x150&vertical=center"
+                            alt="">
+
+                        <h3 class="px-2 text-[1vw] font-semibold">Illustration</h3>
+                    </div>
+
+                    <div class="img-container h-[30vh] w-[17vw] overflow-hidden rounded-[10px] inline-block mr-[15px]">
+                        <img class="object-cover object-center h-[90%] w-full rounded-[10px]"
+                            src="https://cdn.dribbble.com/userupload/13010548/file/original-4c137548301e3c78db633931dd098496.jpg?crop=765x146-5512x3707&format=webp&resize=200x150&vertical=center"
+                            alt="">
+
+                        <h3 class="px-2 text-[1vw] font-semibold">Typography</h3>
+                    </div>
+
+                    <div class="img-container h-[30vh] w-[17vw] overflow-hidden rounded-[10px] inline-block mr-[15px]">
+                        <img class="object-cover object-center h-[90%] w-full rounded-[10px]"
+                            src="https://cdn.dribbble.com/userupload/12951619/file/original-5c07ef14f3ff92131d2beb27e8b6a4a1.jpg?format=webp&resize=200x150&vertical=center"
+                            alt="">
+
+                        <h3 class="px-2 text-[1vw] font-semibold">Animation</h3>
+
+                    </div>
+
+                    <div class="img-container h-[30vh] w-[17vw] overflow-hidden rounded-[10px] inline-block mr-[15px]">
+                        <img class="object-cover object-center h-[90%] w-full rounded-[10px]"
+                            src="https://cdn.dribbble.com/userupload/13003379/file/original-6c76475ea2f0d33f87c3b1036342f1f7.png?format=webp&resize=200x150&vertical=center"
+                            alt="">
+
+                        <h3 class="px-2 text-[1vw] font-semibold">Branding</h3>
+                    </div>
+
+                    <div class="img-container h-[30vh] w-[17vw] overflow-hidden rounded-[10px] inline-block mr-[15px]">
+                        <img class="object-cover object-center h-[90%] w-full rounded-[10px]"
+                            src="https://cdn.dribbble.com/userupload/13003519/file/still-6982f97bbb17780e80e36cb1fd578f6b.gif?format=webp&resize=200x150&vertical=center"
+                            alt="">
+
+                        <h3 class="px-2 text-[1vw] font-semibold">Web Design</h3>
+                    </div>
+
+                    <div class="img-container h-[30vh] w-[17vw] overflow-hidden rounded-[10px] inline-block mr-[15px]">
+                        <img class="object-cover object-center h-[90%] w-full rounded-[10px]"
+                            src="https://cdn.dribbble.com/userupload/12892304/file/original-edbf6b8b58d40a18c8148e0d771205b3.png?format=webp&resize=200x150&vertical=center"
+                            alt="">
+
+                        <h3 class="px-2 text-[1vw] font-semibold">Product Design</h3>
+
+                    </div>
+
+
+                </div>
+
+                <div class="anime2-container h-full w-fit inline-block">
+
+                    <div class="img-container h-[30vh] w-[17vw] overflow-hidden rounded-[10px] inline-block mr-[15px]">
+                        <img class="object-cover object-center h-[90%] w-full rounded-[10px]"
+                            src="https://cdn.dribbble.com/userupload/12958449/file/original-174234ab179f5ca07d255047652cd460.png?format=webp&resize=200x150&vertical=center"
+                            alt="">
+
+                        <h3 class="px-2 text-[1vw] font-semibold">Mobile</h3>
+                    </div>
+
+                    <div class="img-container h-[30vh] w-[17vw] overflow-hidden rounded-[10px] inline-block mr-[15px]">
+                        <img class="object-cover object-center h-[90%] w-full rounded-[10px]"
+                            src="https://cdn.dribbble.com/userupload/12917157/file/original-db75ebf7857004842eff664b333da8c6.jpg?format=webp&resize=200x150&vertical=center"
+                            alt="">
+
+                        <h3 class="px-2 text-[1vw] font-semibold">Print</h3>
+                    </div>
+
+                    <div class="img-container h-[30vh] w-[17vw] overflow-hidden rounded-[10px] inline-block mr-[15px]">
+                        <img class="object-cover object-center h-[90%] w-full rounded-[10px]"
+                            src="https://cdn.dribbble.com/userupload/12826104/file/original-7b9ef3d90afefe3eb75b8ed937c16894.jpg?format=webp&resize=200x150&vertical=center"
+                            alt="">
+
+                        <h3 class="px-2 text-[1vw] font-semibold">Illustration</h3>
+                    </div>
+
+                    <div class="img-container h-[30vh] w-[17vw] overflow-hidden rounded-[10px] inline-block mr-[15px]">
+                        <img class="object-cover object-center h-[90%] w-full rounded-[10px]"
+                            src="https://cdn.dribbble.com/userupload/13010548/file/original-4c137548301e3c78db633931dd098496.jpg?crop=765x146-5512x3707&format=webp&resize=200x150&vertical=center"
+                            alt="">
+
+                        <h3 class="px-2 text-[1vw] font-semibold">Typography</h3>
+                    </div>
+
+                    <div class="img-container h-[30vh] w-[17vw] overflow-hidden rounded-[10px] inline-block mr-[15px]">
+                        <img class="object-cover object-center h-[90%] w-full rounded-[10px]"
+                            src="https://cdn.dribbble.com/userupload/12951619/file/original-5c07ef14f3ff92131d2beb27e8b6a4a1.jpg?format=webp&resize=200x150&vertical=center"
+                            alt="">
+
+                        <h3 class="px-2 text-[1vw] font-semibold">Animation</h3>
+
+                    </div>
+
+                    <div class="img-container h-[30vh] w-[17vw] overflow-hidden rounded-[10px] inline-block mr-[15px]">
+                        <img class="object-cover object-center h-[90%] w-full rounded-[10px]"
+                            src="https://cdn.dribbble.com/userupload/13003379/file/original-6c76475ea2f0d33f87c3b1036342f1f7.png?format=webp&resize=200x150&vertical=center"
+                            alt="">
+
+                        <h3 class="px-2 text-[1vw] font-semibold">Branding</h3>
+                    </div>
+
+                    <div class="img-container h-[30vh] w-[17vw] overflow-hidden rounded-[10px] inline-block mr-[15px]">
+                        <img class="object-cover object-center h-[90%] w-full rounded-[10px]"
+                            src="https://cdn.dribbble.com/userupload/13003519/file/still-6982f97bbb17780e80e36cb1fd578f6b.gif?format=webp&resize=200x150&vertical=center"
+                            alt="">
+
+                        <h3 class="px-2 text-[1vw] font-semibold">Web Design</h3>
+                    </div>
+
+                    <div class="img-container h-[30vh] w-[17vw] overflow-hidden rounded-[10px] inline-block mr-[15px]">
+                        <img class="object-cover object-center h-[90%] w-full rounded-[10px]"
+                            src="https://cdn.dribbble.com/userupload/12892304/file/original-edbf6b8b58d40a18c8148e0d771205b3.png?format=webp&resize=200x150&vertical=center"
+                            alt="">
+
+                        <h3 class="px-2 text-[1vw] font-semibold">Product Design</h3>
+
+                    </div>
+
+
+                </div>
+
+                <footer class="h-[30vh] w-full mt-[3vw]  flex flex-col justify-between py-[2vw]">
+
+                    <div class="footer-part1 h-[30%]">
+                        <img src="Logo.svg" alt="" class="self-center justify-self-center w-[40%]">
+
+                        <div class="h3s flex items-center justify-between">
+                            <h3 class="font-semibold">For designers</h3>
+                            <h3 class="font-semibold">Hire talent</h3>
+                            <h3 class="font-semibold">Inspiration</h3>
+                            <h3 class="font-semibold">Advertising</h3>
+                            <h3 class="font-semibold">Blog</h3>
+                            <h3 class="font-semibold">About</h3>
+                            <h3 class="font-semibold">Careers</h3>
+                            <h3 class="font-semibold">Support</h3>
+                        </div>
+
+                        <div class="footer-icons flex items-center justify-center gap-3">
+                            <i class="text-[1.8vw] ri-twitter-fill"></i>
+                            <i class="text-[1.8vw] ri-facebook-box-fill"></i>
+                            <i class="text-[1.8vw] ri-instagram-line"></i>
+                            <i class="text-[1.8vw] ri-pinterest-line"></i>
+                        </div>
+
+                    </div>
+
+                    <div class="footer-part2 flex items-center justify-between px-[5vw] text-[#585656]">
+
+                        <div class="left-foot flex items-center justify-between w-[30%]">
+                            <h3>© 2024 Dribbble</h3>
+                            <h3>Terms</h3>
+                            <h3>Privacy</h3>
+                            <h3>Cookies</h3>
+                        </div>
+
+                        <div class="right-foot flex items-center justify-between w-[40%]">
+                            <h3>Jobs</h3>
+                            <h3>Designers</h3>
+                            <h3>Freelancers</h3>
+                            <h3>Tags</h3>
+                            <h3>Places</h3>
+                            <h3>Resources</h3>
+                        </div>
+
+                    </div>
+
+                </footer>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="Dribble.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,175 @@
+@font-face {
+    font-family: gilroyReg;
+    src: url(./Gilroy-Regular.ttf);
+}
+
+@font-face {
+    font-family: gilroyMed;
+    src: url(./Gilroy-Medium.ttf);
+}
+
+* {
+    font-family: gilroyReg;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.fixed-bar {
+    z-index: 242;
+}
+
+.anime::-webkit-scrollbar {
+    display: none;
+}
+
+.scroller {
+    animation-name: anime1;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes anime1 {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+
+        transform: translateX(calc(-100% - 15px));
+    }
+}
+
+.overlay h3 {
+    mix-blend-mode: color-dodge;
+}
+
+.bottom-box {
+    transition: all ease 0.3s;
+}
+
+.box:hover .bottom-box {
+    bottom: 0%
+}
+
+.btn {
+    position: relative;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    z-index: 42;
+    transition: all ease 0.5s;
+    overflow: hidden;
+}
+
+.btn::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    height: 300px;
+    width: 300px;
+    background-color: #0D0C22;
+    z-index: -1;
+    border-radius: 50%;
+    transition: all ease 0.5s;
+
+}
+
+.btn:hover::after {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.btn:hover {
+    color: white;
+}
+
+.anime2-container::-webkit-scrollbar {
+    display: none;
+}
+
+.anime2-container {
+    animation-name: anime2;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anime2 {
+    form {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.img-container {
+    position: relative;
+}
+
+.footer-part1 {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 100%;
+}
+
+@media (max-width:600px) {
+    .page1 {
+        height: 60vh;
+        width: 100%;
+    }
+
+    .navbar{
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+    }
+
+    .navbar h4 {
+        display: none;
+    }
+
+    .navbar i {
+        display: block;
+    }
+
+
+    .left-nav img {
+        width: 40%;
+    }
+
+    .left-nav {
+        gap: 2vw;
+        justify-content: flex-start;
+    }
+
+    .right-nav {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right-nav .log {
+        display: none;
+    }
+
+    .right-nav input {
+        display: none;
+    }
+
+
+
+}
